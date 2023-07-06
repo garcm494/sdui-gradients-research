@@ -142,6 +142,69 @@ The next gradient colros and transitions are defined by a degree provided on the
 }
 ```
 
+#### Flutter Translation.
+
+![angles](https://github.com/garcm494/sdui-gradients-research/assets/123591150/0ec8c6eb-04cb-44dc-ab25-db2cb4c9b300)
+
+
+### 0 Degrees.
+```
+BoxDecoration(
+	gradient: LinearGradient(
+			begin: Alignment(0.0, -1.0),
+              		end: Alignment(0.0, 1.0),
+              		colors: [
+                		Colors(0669AC),
+                		Colors(027CBD),
+              		],
+	)
+)
+```
+
+### 90 Degrees.
+```
+BoxDecoration(
+	gradient: LinearGradient(
+			begin: Alignment(-1.0, 0.0),
+              		end: Alignment(1.0, 0.0),
+              		colors: [
+                		Colors(0669AC),
+                		Colors(027CBD),
+              		],
+	)
+)
+```
+
+### 180 Degrees.
+```
+BoxDecoration(
+	gradient: LinearGradient(
+			begin: Alignment(0.0, 1.0),
+              		end: Alignment(0.0, -1.0),
+              		colors: [
+                		Colors(0669AC),
+                		Colors(027CBD),
+              		],
+	)
+)
+```
+
+### -90 Degrees.
+```
+BoxDecoration(
+	gradient: LinearGradient(
+			begin: Alignment(1.0, 0.0),
+              		end: Alignment(-1.0, 0.0),
+              		colors: [
+                		Colors(0669AC),
+                		Colors(027CBD),
+              		],
+	)
+)
+```
+
+
+#### Output.
 <img width="1069" alt="Screenshot 2023-07-06 at 12 37 16 PM" src="https://github.com/garcm494/sdui-gradients-research/assets/123591150/416cba1d-3716-4069-b669-4cf4ba5c29bc">
 
 --------------------
