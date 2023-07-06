@@ -66,9 +66,24 @@ The next gradient colros and transitions are defined by a degree provided on the
 
 ```
 {
-	"gradient-sample": {
+	"gradient-sample-0Deg": {
 		"colors": ["0669AC", "027CBD"],
 		"direction-angle": "0deg",
+		"type": "linear"
+	},
+	"gradient-sample-90Deg": {
+		"colors": ["0669AC", "027CBD"],
+		"direction-angle": "90deg",
+		"type": "linear"
+	},
+	"gradient-sample-180Deg": {
+		"colors": ["0669AC", "027CBD"],
+		"direction-angle": "180deg",
+		"type": "linear"
+	},
+	"gradient-sample-negative-90Deg": {
+		"colors": ["0669AC", "027CBD"],
+		"direction-angle": "-90deg",
 		"type": "linear"
 	}
 }
@@ -76,6 +91,43 @@ The next gradient colros and transitions are defined by a degree provided on the
 
 <img width="1069" alt="Screenshot 2023-07-06 at 12 37 16 PM" src="https://github.com/garcm494/sdui-gradients-research/assets/123591150/416cba1d-3716-4069-b669-4cf4ba5c29bc">
 
+
+## Multiple Color Stops
+`linear` gradient with 3 color stops evenly spaced (since no percents are specified). 
+
+```
+{
+	"gradient-sample": {
+		"colors": ["0669AC", "1FA43C", "027CBD"],
+		"starts": "top",
+		"direction-angle": "down",
+		"type": "linear"
+	}
+}
+```
+
+<img width="510" alt="Screenshot 2023-07-06 at 12 57 37 PM" src="https://github.com/garcm494/sdui-gradients-research/assets/123591150/2b307052-ae55-49c2-8a57-0d44da01c502">
+
+## Multiple Color Stops with Specific percents.
+`linear` gradient with 3 color stops with specific percents, percents are matched color to percent.
+
+```
+{
+	"gradient-sample": {
+		"colors": ["0669AC", "1FA43C", "027CBD"],
+		"percents": {
+			"0669AC": "30.82%",
+			"1FA43C": "40.68%",
+			"027CBD": "50.53%"
+		},
+		"starts": "top",
+		"direction-angle": "down",
+		"type": "linear"
+	}
+}
+```
+
+<img width="510" alt="Screenshot 2023-07-06 at 1 24 12 PM" src="https://github.com/garcm494/sdui-gradients-research/assets/123591150/b003c566-373c-471d-a319-3af824a6dbff">
 
 
 
@@ -87,24 +139,50 @@ The next gradient colros and transitions are defined by a degree provided on the
 ### Sample on theme document.
 ```
 {
-	"gradients": {
-		"hubCards": {
-			"colors": ["0669AC", "027CBD"],
-			"starts": "top",
-			"direction-angle": "down",
-			"type": "linear"
-		},
-		"homeCards": {
-			"colors": ["0669AC", "027CBD"],
-			"starts": "left",
-			"direction-angle": "right",
-			"type": "linear"
-		},
-		"menuCards": {
-			"colors": ["0669AC", "027CBD"],
-			"starts": "top-left",
-			"direction-angle": "bottom-right",
-			"type": "linear"
+	"colors": {
+		"light": {
+			"default": {
+				"primary": "c83444",
+				"secondary": "62542a",
+				"neutrals": "573d2b",
+				"status": "#dfe2eb",
+				"gradients": {
+					"hubCards": {
+						"colors": ["0669AC", "027CBD"],
+						"starts": "top",
+						"direction-angle": "down",
+						"type": "linear"
+					},
+					"homeCards": {
+						"colors": ["0669AC", "027CBD"],
+						"starts": "left",
+						"direction-angle": "right",
+						"type": "linear"
+					},
+					"menuCards": {
+						"colors": ["0669AC", "027CBD"],
+						"starts": "top-left",
+						"direction-angle": "bottom-right",
+						"type": "linear"
+					},
+					"profileCards": {
+						"colors": ["0669AC", "027CBD"],
+						"direction-angle": "0deg",
+						"type": "linear"
+					},
+					"gradient-sample-with-percents": {
+						"colors": ["0669AC", "1FA43C", "027CBD"],
+						"percents": {
+							"0669AC": "30.82%",
+							"1FA43C": "40.68%",
+							"027CBD": "50.53%"
+						},
+						"starts": "top",
+						"direction-angle": "down",
+						"type": "linear"
+					}
+				}
+			}
 		}
 	}
 }
