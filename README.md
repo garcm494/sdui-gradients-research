@@ -121,22 +121,22 @@ The next gradient colros and transitions are defined by a degree provided on the
 {
 	"gradient-sample-0Deg": {
 		"colors": ["0669AC", "027CBD"],
-		"direction-angle": "0deg",
+		"direction-angle": "0",
 		"type": "linear"
 	},
 	"gradient-sample-90Deg": {
 		"colors": ["0669AC", "027CBD"],
-		"direction-angle": "90deg",
+		"direction-angle": "90",
 		"type": "linear"
 	},
 	"gradient-sample-180Deg": {
 		"colors": ["0669AC", "027CBD"],
-		"direction-angle": "180deg",
+		"direction-angle": "180",
 		"type": "linear"
 	},
 	"gradient-sample-negative-90Deg": {
 		"colors": ["0669AC", "027CBD"],
-		"direction-angle": "-90deg",
+		"direction-angle": "-90",
 		"type": "linear"
 	}
 }
@@ -247,12 +247,19 @@ BoxDecoration(
 ```
 {
 	"gradient-sample": {
-		"colors": ["0669AC", "1FA43C", "027CBD"],
-		"percents": {
-			"0669AC": "30.82%",
-			"1FA43C": "40.68%",
-			"027CBD": "50.53%"
-		},
+		"colors": [{
+				"color": "0669AC",
+				"percent": "30.8"
+			},
+			{
+				"color": "1FA43C",
+				"percent": "40.6"
+			},
+			{
+				"color": "027CBD",
+				"percent": "50.5"
+			}
+		],
 		"starts": "top",
 		"direction-angle": "down",
 		"type": "linear"
@@ -267,9 +274,9 @@ BoxDecoration(
 			begin: Alignment.top,
               		end: Alignment.bottom,
 			stops: [
-				30.82,
-				40.68,
-				50.53
+				0.0,
+				0.1,
+				0.0
 			],
               		colors: [
                 		Colors(0669AC),
