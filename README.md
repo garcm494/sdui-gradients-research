@@ -33,15 +33,13 @@ This `linear` gradient starts at the `top`, transitioning to light blue color at
 
 #### Flutter Translation.
 ```
-BoxDecoration(
-	gradient: LinearGradient(
-			begin: Alignment.top,
-              		end: Alignment.bottom,
-              		colors: [
-                		Colors(0669AC),
-                		Colors(027CBD),
-              		],
-	)
+LinearGradient(
+	begin: Alignment.top,
+	end: Alignment.bottom,
+	colors: [
+		Colors(0669AC),
+		Colors(027CBD),
+	],
 )
 ```
 
@@ -75,15 +73,13 @@ This `linear` gradient starts at the `left`, transitioning to light blue color a
 
 #### Flutter Translation.
 ```
-BoxDecoration(
-	gradient: LinearGradient(
-			begin: Alignment.left,
-              		end: Alignment.right,
-              		colors: [
-                		Colors(0669AC),
-                		Colors(027CBD),
-              		],
-	)
+LinearGradient(
+	begin: Alignment.left,
+	end: Alignment.right,
+	colors: [
+		Colors(0669AC),
+		Colors(027CBD),
+	],
 )
 ```
 
@@ -114,15 +110,13 @@ This `linear` gradient starts at the `top-left`, transitioning to light blue col
 
 #### Flutter Translation.
 ```
-BoxDecoration(
-	gradient: LinearGradient(
-			begin: Alignment.topLeft,
-              		end: Alignment.bottomRight,
-              		colors: [
-                		Colors(0669AC),
-                		Colors(027CBD),
-              		],
-	)
+LinearGradient(
+	begin: Alignment.topLeft,
+	end: Alignment.bottomRight,
+	colors: [
+		Colors(0669AC),
+		Colors(027CBD),
+	],
 )
 ```
 
@@ -191,22 +185,19 @@ The next gradient colros and transitions are defined by a degree provided on the
 
 ### 0 Degrees.
 ```
-BoxDecoration(
-	gradient: LinearGradient(
-			begin: Alignment(0.0, -1.0),
-              		end: Alignment(0.0, 1.0),
-              		colors: [
-                		Colors(0669AC),
-                		Colors(027CBD),
-              		],
-	)
+LinearGradient(
+	begin: Alignment(0.0, -1.0),
+	end: Alignment(0.0, 1.0),
+		colors: [
+			Colors(0669AC),
+			Colors(027CBD),
+		],
 )
 ```
 
 ### 90 Degrees.
 ```
-BoxDecoration(
-	gradient: LinearGradient(
+LinearGradient(
 			begin: Alignment(-1.0, 0.0),
               		end: Alignment(1.0, 0.0),
               		colors: [
@@ -214,13 +205,11 @@ BoxDecoration(
                 		Colors(027CBD),
               		],
 	)
-)
 ```
 
 ### 180 Degrees.
 ```
-BoxDecoration(
-	gradient: LinearGradient(
+LinearGradient(
 			begin: Alignment(0.0, 1.0),
               		end: Alignment(0.0, -1.0),
               		colors: [
@@ -228,13 +217,11 @@ BoxDecoration(
                 		Colors(027CBD),
               		],
 	)
-)
 ```
 
 ### -90 Degrees.
 ```
-BoxDecoration(
-	gradient: LinearGradient(
+LinearGradient(
 			begin: Alignment(1.0, 0.0),
               		end: Alignment(-1.0, 0.0),
               		colors: [
@@ -242,7 +229,6 @@ BoxDecoration(
                 		Colors(027CBD),
               		],
 	)
-)
 ```
 
 
@@ -274,16 +260,14 @@ BoxDecoration(
 
 #### Flutter Translation.
 ```
-BoxDecoration(
-	gradient: LinearGradient(
-			begin: Alignment.top,
-              		end: Alignment.bottom,
-              		colors: [
-                		Colors(0669AC),
-				Colors(1FA43C),
-                		Colors(027CBD),
-              		],
-	)
+LinearGradient(
+	begin: Alignment.top,
+	end: Alignment.bottom,
+	colors: [
+		Colors(0669AC),
+		Colors(1FA43C),
+		Colors(027CBD),
+	],
 )
 ```
 
@@ -319,21 +303,19 @@ BoxDecoration(
 
 #### Flutter Translation.
 ```
-BoxDecoration(
-	gradient: LinearGradient(
-			begin: Alignment.top,
-              		end: Alignment.bottom,
-			stops: [
-				0.0,
-				0.1,
-				0.0
-			],
-              		colors: [
-                		Colors(0669AC),
-				Colors(1FA43C),
-                		Colors(027CBD),
-              		],
-	)
+LinearGradient(
+	begin: Alignment.top,
+	end: Alignment.bottom,
+	stops: [
+		0.0,
+		0.1,
+		0.0
+	],
+	colors: [
+		Colors(0669AC),
+		Colors(1FA43C),
+		Colors(027CBD),
+	],
 )
 ```
 
