@@ -9,7 +9,9 @@ Up, Down, Left, Right, Diagonally.
 - Direction / angle (up, down, left, right, diagonally).
 - Gradient type (linear, radial, conic).
 
-### Sample Top to Bottom.
+## Samples 
+
+### Top to Bottom.
 This `linear` gradient starts at the `top`, transitioning to light blue color at the `bottom`
 
 ```
@@ -23,10 +25,29 @@ This `linear` gradient starts at the `top`, transitioning to light blue color at
 }
 ```
 
+#### Flutter Translation.
+```
+BoxDecoration(
+	gradient: LinearGradient(
+			begin: Alignment.top,
+              		end: Alignment.bottom,
+              		colors: [
+                		Colors(0669AC),
+                		Colors(027CBD),
+              		],
+	)
+)
+```
+
+
+#### Output.
 <img width="510" alt="Screenshot 2023-07-06 at 11 56 46 AM" src="https://github.com/garcm494/sdui-gradients-research/assets/123591150/92d993a8-8e70-4a6a-ad68-b065a80e46ed">
 
 
-### Sample Left to Right.
+
+
+--------------------
+### Left to Right.
 This `linear` gradient starts at the `left`, transitioning to light blue color at the `right`
 
 ```
@@ -40,8 +61,25 @@ This `linear` gradient starts at the `left`, transitioning to light blue color a
 }
 ```
 
+#### Flutter Translation.
+```
+BoxDecoration(
+	gradient: LinearGradient(
+			begin: Alignment.left,
+              		end: Alignment.right,
+              		colors: [
+                		Colors(0669AC),
+                		Colors(027CBD),
+              		],
+	)
+)
+```
+
+
+#### Output.
 <img width="510" alt="Screenshot 2023-07-06 at 12 05 53 PM" src="https://github.com/garcm494/sdui-gradients-research/assets/123591150/797ea744-6739-4d3f-84ce-947244b136ec">
 
+--------------------
 ### Sample Diagonal.
 This `linear` gradient starts at the `top-left`, transitioning to light blue color at the `bottom-right`
 
@@ -56,6 +94,21 @@ This `linear` gradient starts at the `top-left`, transitioning to light blue col
 }
 ```
 
+#### Flutter Translation.
+```
+BoxDecoration(
+	gradient: LinearGradient(
+			begin: Alignment.topLeft,
+              		end: Alignment.bottomRight,
+              		colors: [
+                		Colors(0669AC),
+                		Colors(027CBD),
+              		],
+	)
+)
+```
+
+#### Output.
 <img width="510" alt="Screenshot 2023-07-06 at 12 15 54 PM" src="https://github.com/garcm494/sdui-gradients-research/assets/123591150/892007ce-528a-44c3-a4a0-219544375973">
 
 
@@ -91,7 +144,7 @@ The next gradient colros and transitions are defined by a degree provided on the
 
 <img width="1069" alt="Screenshot 2023-07-06 at 12 37 16 PM" src="https://github.com/garcm494/sdui-gradients-research/assets/123591150/416cba1d-3716-4069-b669-4cf4ba5c29bc">
 
-
+--------------------
 ## Multiple Color Stops
 `linear` gradient with 3 color stops evenly spaced (since no percents are specified). 
 
@@ -106,8 +159,25 @@ The next gradient colros and transitions are defined by a degree provided on the
 }
 ```
 
+#### Flutter Translation.
+```
+BoxDecoration(
+	gradient: LinearGradient(
+			begin: Alignment.top,
+              		end: Alignment.bottom,
+              		colors: [
+                		Colors(0669AC),
+				Colors(1FA43C),
+                		Colors(027CBD),
+              		],
+	)
+)
+```
+
+#### Output.
 <img width="510" alt="Screenshot 2023-07-06 at 12 57 37 PM" src="https://github.com/garcm494/sdui-gradients-research/assets/123591150/2b307052-ae55-49c2-8a57-0d44da01c502">
 
+--------------------
 ## Multiple Color Stops with Specific percents.
 `linear` gradient with 3 color stops with specific percents, percents are matched color to percent.
 
@@ -127,6 +197,27 @@ The next gradient colros and transitions are defined by a degree provided on the
 }
 ```
 
+#### Flutter Translation.
+```
+BoxDecoration(
+	gradient: LinearGradient(
+			begin: Alignment.top,
+              		end: Alignment.bottom,
+			stops: [
+				30.82,
+				40.68,
+				50.53
+			],
+              		colors: [
+                		Colors(0669AC),
+				Colors(1FA43C),
+                		Colors(027CBD),
+              		],
+	)
+)
+```
+
+#### Output.
 <img width="510" alt="Screenshot 2023-07-06 at 1 24 12 PM" src="https://github.com/garcm494/sdui-gradients-research/assets/123591150/b003c566-373c-471d-a319-3af824a6dbff">
 
 
