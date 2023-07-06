@@ -187,3 +187,7 @@ The next gradient colros and transitions are defined by a degree provided on the
 	}
 }
 ```
+
+## TODO.
+- Radial Gradients: Defined by their center
+- Conic Gradients: Rotated around a center point
