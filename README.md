@@ -17,7 +17,13 @@ This `linear` gradient starts at the `top`, transitioning to light blue color at
 ```
 {
 	"gradient-sample": {
-		"colors": ["0669AC", "027CBD"],
+		"colors": [{
+				"color": "0669AC"
+			},
+			{
+				"color": "027CBD"
+			}
+		],
 		"starts": "top",
 		"direction-angle": "down",
 		"type": "linear"
@@ -53,7 +59,13 @@ This `linear` gradient starts at the `left`, transitioning to light blue color a
 ```
 {
 	"gradient-sample": {
-		"colors": ["0669AC", "027CBD"],
+		"colors": [{
+				"color": "0669AC"
+			},
+			{
+				"color": "027CBD"
+			}
+		],
 		"starts": "left",
 		"direction-angle": "right",
 		"type": "linear"
@@ -86,7 +98,13 @@ This `linear` gradient starts at the `top-left`, transitioning to light blue col
 ```
 {
 	"gradient-sample": {
-		"colors": ["0669AC", "027CBD"],
+		"colors": [{
+				"color": "0669AC"
+			},
+			{
+				"color": "027CBD"
+			}
+		],
 		"starts": "top-left",
 		"direction-angle": "bottom-right",
 		"type": "linear"
@@ -120,22 +138,46 @@ The next gradient colros and transitions are defined by a degree provided on the
 ```
 {
 	"gradient-sample-0Deg": {
-		"colors": ["0669AC", "027CBD"],
+		"colors": [{
+				"color": "0669AC"
+			},
+			{
+				"color": "027CBD"
+			}
+		]
 		"direction-angle": "0",
 		"type": "linear"
 	},
 	"gradient-sample-90Deg": {
-		"colors": ["0669AC", "027CBD"],
+		"colors": [{
+				"color": "0669AC"
+			},
+			{
+				"color": "027CBD"
+			}
+		]
 		"direction-angle": "90",
 		"type": "linear"
 	},
 	"gradient-sample-180Deg": {
-		"colors": ["0669AC", "027CBD"],
+		"colors": [{
+				"color": "0669AC"
+			},
+			{
+				"color": "027CBD"
+			}
+		]
 		"direction-angle": "180",
 		"type": "linear"
 	},
 	"gradient-sample-negative-90Deg": {
-		"colors": ["0669AC", "027CBD"],
+		"colors": [{
+				"color": "0669AC"
+			},
+			{
+				"color": "027CBD"
+			}
+		]
 		"direction-angle": "-90",
 		"type": "linear"
 	}
@@ -214,7 +256,15 @@ BoxDecoration(
 ```
 {
 	"gradient-sample": {
-		"colors": ["0669AC", "1FA43C", "027CBD"],
+		"colors": [{
+				"color": "0669AC"
+			},
+			{
+				"color": "1FA43C"
+			}, {
+				"color": "027CBD"
+			}
+		],
 		"starts": "top",
 		"direction-angle": "down",
 		"type": "linear"
@@ -309,30 +359,60 @@ BoxDecoration(
 				"status": "#dfe2eb",
 				"gradients": {
 					"hubCards": {
-						"colors": ["0669AC", "027CBD"],
+						"colors": [{
+								"color": "0669AC"
+							},
+							{
+								"color": "027CBD"
+							}
+						],
 						"starts": "top",
 						"direction-angle": "down",
 						"type": "linear"
 					},
 					"homeCards": {
-						"colors": ["0669AC", "027CBD"],
+						"colors": [{
+								"color": "0669AC"
+							},
+							{
+								"color": "027CBD"
+							}
+						],
 						"starts": "left",
 						"direction-angle": "right",
 						"type": "linear"
 					},
 					"menuCards": {
-						"colors": ["0669AC", "027CBD"],
+						"colors": [{
+								"color": "0669AC"
+							},
+							{
+								"color": "027CBD"
+							}
+						],
 						"starts": "top-left",
 						"direction-angle": "bottom-right",
 						"type": "linear"
 					},
 					"profileCards": {
-						"colors": ["0669AC", "027CBD"],
+						"colors": [{
+								"color": "0669AC"
+							},
+							{
+								"color": "027CBD"
+							}
+						],
 						"direction-angle": "0deg",
 						"type": "linear"
 					},
 					"gradient-sample-with-percents": {
-						"colors": ["0669AC", "1FA43C", "027CBD"],
+						"colors": [{
+								"color": "0669AC"
+							},
+							{
+								"color": "027CBD"
+							}
+						],
 						"percents": {
 							"0669AC": "30.82%",
 							"1FA43C": "40.68%",
