@@ -45,7 +45,8 @@ LinearGradient(
 
 
 #### Output.
-<img width="510" alt="Screenshot 2023-07-06 at 11 56 46 AM" src="https://github.com/garcm494/sdui-gradients-research/assets/123591150/92d993a8-8e70-4a6a-ad68-b065a80e46ed">
+<img width="510" alt="01" src="https://github.com/garcm494/sdui-gradients-research/assets/123591150/f361e660-4125-4af5-bf74-24240ae756dd">
+
 
 
 
@@ -85,7 +86,8 @@ LinearGradient(
 
 
 #### Output.
-<img width="510" alt="Screenshot 2023-07-06 at 12 05 53 PM" src="https://github.com/garcm494/sdui-gradients-research/assets/123591150/797ea744-6739-4d3f-84ce-947244b136ec">
+<img width="510" alt="02" src="https://github.com/garcm494/sdui-gradients-research/assets/123591150/ac953cd1-0a04-4707-9f2a-b5bd28f420c9">
+
 
 --------------------
 ### Sample Diagonal.
@@ -121,7 +123,8 @@ LinearGradient(
 ```
 
 #### Output.
-<img width="510" alt="Screenshot 2023-07-06 at 12 15 54 PM" src="https://github.com/garcm494/sdui-gradients-research/assets/123591150/892007ce-528a-44c3-a4a0-219544375973">
+<img width="510" alt="03" src="https://github.com/garcm494/sdui-gradients-research/assets/123591150/6095f329-78a7-4b15-b828-4dd95f6c261a">
+
 
 
 ## Linear Gradients - Different Angles
@@ -179,8 +182,9 @@ The next gradient colros and transitions are defined by a degree provided on the
 ```
 
 #### Flutter Translation.
+![04](https://github.com/garcm494/sdui-gradients-research/assets/123591150/b53493da-0219-4d33-8bba-cb99dbf34097)
 
-![angles](https://github.com/garcm494/sdui-gradients-research/assets/123591150/0ec8c6eb-04cb-44dc-ab25-db2cb4c9b300)
+
 
 
 ### 0 Degrees.
@@ -233,7 +237,8 @@ LinearGradient(
 
 
 #### Output.
-<img width="1069" alt="Screenshot 2023-07-06 at 12 37 16 PM" src="https://github.com/garcm494/sdui-gradients-research/assets/123591150/416cba1d-3716-4069-b669-4cf4ba5c29bc">
+<img width="1069" alt="05" src="https://github.com/garcm494/sdui-gradients-research/assets/123591150/597a73cb-f405-4566-bc08-029fc958fb46">
+
 
 --------------------
 ## Multiple Color Stops
@@ -272,7 +277,8 @@ LinearGradient(
 ```
 
 #### Output.
-<img width="510" alt="Screenshot 2023-07-06 at 12 57 37 PM" src="https://github.com/garcm494/sdui-gradients-research/assets/123591150/2b307052-ae55-49c2-8a57-0d44da01c502">
+<img width="510" alt="06" src="https://github.com/garcm494/sdui-gradients-research/assets/123591150/23b8b37d-ed27-4eb0-863c-5c5dc1b72865">
+
 
 --------------------
 ## Multiple Color Stops with Specific percents.
@@ -320,7 +326,8 @@ LinearGradient(
 ```
 
 #### Output.
-<img width="510" alt="Screenshot 2023-07-06 at 1 24 12 PM" src="https://github.com/garcm494/sdui-gradients-research/assets/123591150/b003c566-373c-471d-a319-3af824a6dbff">
+<img width="510" alt="07" src="https://github.com/garcm494/sdui-gradients-research/assets/123591150/bff0ea15-bdeb-4861-928e-0588068b5c46">
+
 
 
 
