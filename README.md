@@ -345,14 +345,20 @@ LinearGradient(
 				"primary": "c83444",
 				"secondary": "62542a",
 				"neutrals": "573d2b",
-				"status": "#dfe2eb",
+				"status": "dfe2eb",
 				"gradients": {
 					"hubCards": {
 						"colors": [{
-								"color": "0669AC"
+								"color": "0669AC",
+								"percent": "30.8"
 							},
 							{
-								"color": "027CBD"
+								"color": "1FA43C",
+								"percent": "40.6"
+							},
+							{
+								"color": "027CBD",
+								"percent": "50.5"
 							}
 						],
 						"starts": "top",
@@ -361,10 +367,16 @@ LinearGradient(
 					},
 					"homeCards": {
 						"colors": [{
-								"color": "0669AC"
+								"color": "0669AC",
+								"percent": "30.8"
 							},
 							{
-								"color": "027CBD"
+								"color": "1FA43C",
+								"percent": "40.6"
+							},
+							{
+								"color": "027CBD",
+								"percent": "50.5"
 							}
 						],
 						"starts": "left",
@@ -373,10 +385,16 @@ LinearGradient(
 					},
 					"menuCards": {
 						"colors": [{
-								"color": "0669AC"
+								"color": "0669AC",
+								"percent": "30.8"
 							},
 							{
-								"color": "027CBD"
+								"color": "1FA43C",
+								"percent": "40.6"
+							},
+							{
+								"color": "027CBD",
+								"percent": "50.5"
 							}
 						],
 						"starts": "top-left",
@@ -385,10 +403,16 @@ LinearGradient(
 					},
 					"profileCards": {
 						"colors": [{
-								"color": "0669AC"
+								"color": "0669AC",
+								"percent": "30.8"
 							},
 							{
-								"color": "027CBD"
+								"color": "1FA43C",
+								"percent": "40.6"
+							},
+							{
+								"color": "027CBD",
+								"percent": "50.5"
 							}
 						],
 						"direction-angle": "0deg",
@@ -396,17 +420,18 @@ LinearGradient(
 					},
 					"gradient-sample-with-percents": {
 						"colors": [{
-								"color": "0669AC"
+								"color": "0669AC",
+								"percent": "30.8"
 							},
 							{
-								"color": "027CBD"
+								"color": "1FA43C",
+								"percent": "40.6"
+							},
+							{
+								"color": "027CBD",
+								"percent": "50.5"
 							}
 						],
-						"percents": {
-							"0669AC": "30.82%",
-							"1FA43C": "40.68%",
-							"027CBD": "50.53%"
-						},
 						"starts": "top",
 						"direction-angle": "down",
 						"type": "linear"
