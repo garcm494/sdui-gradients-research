@@ -49,9 +49,6 @@ LinearGradient(
 
 
 
-![Uploading Simulator Screen Shot - iPhone 14 Pro Max - 2023-07-13 at 13.03.14.png…]()
-
-
 
 --------------------
 ### Left to Right.
