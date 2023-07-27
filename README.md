@@ -261,7 +261,7 @@ LinearGradient(
 			}
 		],
 		"starts": "top",
-		"direction-angle": "down",
+		"direction-angle": "bottom",
 		"type": "linear"
 	}
 }
