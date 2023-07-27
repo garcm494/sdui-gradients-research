@@ -18,14 +18,16 @@ This `linear` gradient starts at the `top`, transitioning to light blue color at
 {
 	"gradient-sample": {
 		"colors": [{
-				"color": "0669AC"
+				"color": "0669AC",
+				"percent": "0.1"
 			},
 			{
-				"color": "027CBD"
+				"color": "027CBD",
+				"percent": "0.1"
 			}
 		],
 		"starts": "top",
-		"direction-angle": "down",
+		"direction-angle": "bottom",
 		"type": "linear"
 	}
 }
@@ -97,14 +99,16 @@ This `linear` gradient starts at the `top-left`, transitioning to light blue col
 {
 	"gradient-sample": {
 		"colors": [{
-				"color": "0669AC"
+				"color": "0669AC",
+				"percent": "0.1"
 			},
 			{
-				"color": "027CBD"
+				"color": "027CBD",
+				"percent": "0.1"
 			}
 		],
-		"starts": "top-left",
-		"direction-angle": "bottom-right",
+		"starts": "bottom-right",
+		"direction-angle": "top-left",
 		"type": "linear"
 	}
 }
